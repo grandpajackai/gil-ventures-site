@@ -1,7 +1,6 @@
 :root { --bg:#0A0E1A; --surface:#12182A; --text:#FAF9F5; --muted:#8B93A7; --accent:#4F7FE8; }
 * { box-sizing: border-box; }
 html, body { margin:0; background:var(--bg); color:var(--text); font-family: Inter, system-ui, -apple-system, sans-serif; line-height:1.55; }
-.banner { background:#FBBF24; color:#0A0E1A; text-align:center; font-weight:700; padding:10px 16px; }
 .wrap { max-width:740px; margin:0 auto; padding:24px 20px; }
 .nav { display:flex; justify-content:space-between; align-items:center; }
 .logo { color:var(--text); text-decoration:none; font-weight:800; letter-spacing:-0.03em; font-size:22px; }
