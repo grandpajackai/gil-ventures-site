@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 520" role="img" aria-labelledby="title desc">
+  <title id="title">The after-the-click sequence, then raise spend</title>
+  <desc id="desc">Four steps come first: make the offer obvious, match the page to the ad, write the follow-up, and watch the next step. Only then do you buy more traffic.</desc>
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#3b6ef5"/>
+      <stop offset="100%" stop-color="#3ec8d0"/>
+    </linearGradient>
+    <linearGradient id="bar" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#3b6ef5"/>
+      <stop offset="100%" stop-color="#3ec8d0"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="520" rx="24" fill="#0c121f"/>
+  <circle cx="980" cy="40" r="280" fill="#3b6ef5" opacity="0.18"/>
+  <text x="56" y="58" fill="#7ee0ea" font-family="Inter, system-ui, sans-serif" font-size="13" font-weight="800" letter-spacing="2.4">THE SEQUENCE</text>
+  <text x="56" y="98" fill="#fff" font-family="Inter, system-ui, sans-serif" font-size="28" font-weight="800">Get the path straight. Then buy more traffic.</text>
+
+  <!-- four steps -->
+  <g font-family="Inter, system-ui, sans-serif">
+    <!-- boxes -->
+    <g>
+      <rect x="56" y="140" width="250" height="200" rx="16" fill="#151c2b" stroke="#2a3348"/>
+      <rect x="56" y="140" width="250" height="5" rx="2" fill="url(#bar)"/>
+      <text x="80" y="186" fill="#7ee0ea" font-size="13" font-weight="800">01</text>
+      <text x="80" y="228" fill="#fff" font-size="22" font-weight="800">Offer</text>
+      <text x="80" y="262" fill="#b7c0d4" font-size="15">One promise.</text>
+      <text x="80" y="284" fill="#b7c0d4" font-size="15">One next step.</text>
+    </g>
+    <g>
+      <rect x="334" y="140" width="250" height="200" rx="16" fill="#151c2b" stroke="#2a3348"/>
+      <rect x="334" y="140" width="250" height="5" rx="2" fill="url(#bar)"/>
+      <text x="358" y="186" fill="#7ee0ea" font-size="13" font-weight="800">02</text>
+      <text x="358" y="228" fill="#fff" font-size="22" font-weight="800">Page</text>
+      <text x="358" y="262" fill="#b7c0d4" font-size="15">Continue the line</text>
+      <text x="358" y="284" fill="#b7c0d4" font-size="15">that earned the visit.</text>
+    </g>
+    <g>
+      <rect x="612" y="140" width="250" height="200" rx="16" fill="#151c2b" stroke="#2a3348"/>
+      <rect x="612" y="140" width="250" height="5" rx="2" fill="url(#bar)"/>
+      <text x="636" y="186" fill="#7ee0ea" font-size="13" font-weight="800">03</text>
+      <text x="636" y="228" fill="#fff" font-size="22" font-weight="800">Follow-up</text>
+      <text x="636" y="262" fill="#b7c0d4" font-size="15">Welcome, then help —</text>
+      <text x="636" y="284" fill="#b7c0d4" font-size="15">before more traffic.</text>
+    </g>
+    <g>
+      <rect x="890" y="140" width="250" height="200" rx="16" fill="#151c2b" stroke="#2a3348"/>
+      <rect x="890" y="140" width="250" height="5" rx="2" fill="url(#bar)"/>
+      <text x="914" y="186" fill="#7ee0ea" font-size="13" font-weight="800">04</text>
+      <text x="914" y="228" fill="#fff" font-size="22" font-weight="800">Leaks</text>
+      <text x="914" y="262" fill="#b7c0d4" font-size="15">Watch the next step.</text>
+      <text x="914" y="284" fill="#b7c0d4" font-size="15">Fix it before you scale.</text>
+    </g>
+
+    <!-- arrows between -->
+    <polygon points="314,240 334,230 334,250" fill="#3ec8d0"/>
+    <polygon points="592,240 612,230 612,250" fill="#3ec8d0"/>
+    <polygon points="870,240 890,230 890,250" fill="#3ec8d0"/>
+
+    <!-- gate -->
+    <rect x="56" y="370" width="1088" height="100" rx="16" fill="url(#g)"/>
+    <text x="600" y="416" text-anchor="middle" fill="#fff" font-size="15" font-weight="800" letter-spacing="2.2">ONLY THEN</text>
+    <text x="600" y="448" text-anchor="middle" fill="#fff" font-size="24" font-weight="800">Buy more traffic. Turn the volume up.</text>
+  </g>
+</svg>

@@ -1,10 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://www.gil.marketing/</loc><lastmod>2026-09-13</lastmod></url>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+  <url><loc>https://www.gil.marketing/</loc><lastmod>2026-11-20</lastmod></url>
   <url><loc>https://www.gil.marketing/about/</loc><lastmod>2026-09-13</lastmod></url>
   <url><loc>https://www.gil.marketing/solutions/</loc><lastmod>2026-09-13</lastmod></url>
   <url><loc>https://www.gil.marketing/work/</loc><lastmod>2026-09-13</lastmod></url>
   <url><loc>https://www.gil.marketing/contact/</loc><lastmod>2026-09-13</lastmod></url>
+  <url><loc>https://www.gil.marketing/bfcm/</loc><lastmod>2026-11-20</lastmod></url>
   <url><loc>https://www.gil.marketing/growth-marketing/</loc><lastmod>2026-09-13</lastmod></url>
   <url><loc>https://www.gil.marketing/web-development/</loc><lastmod>2026-09-13</lastmod></url>
   <url><loc>https://www.gil.marketing/shopify-ecommerce/</loc><lastmod>2026-09-13</lastmod></url>
@@ -19,7 +21,36 @@
   <url><loc>https://www.gil.marketing/case-study-leon-roofing/</loc><lastmod>2026-09-13</lastmod></url>
   <url><loc>https://www.gil.marketing/case-study-car-factory-outlet/</loc><lastmod>2026-09-13</lastmod></url>
   <url><loc>https://www.gil.marketing/case-study-website-builds/</loc><lastmod>2026-09-13</lastmod></url>
-  <url><loc>https://www.gil.marketing/blog/</loc><lastmod>2026-11-20</lastmod></url>
-  <url><loc>https://www.gil.marketing/blog/2026-11-20-after-the-click/</loc><lastmod>2026-11-20</lastmod></url>
-  <url><loc>https://www.gil.marketing/blog/2026-11-20-six-steps/</loc><lastmod>2026-11-20</lastmod></url>
+  <url>
+    <loc>https://www.gil.marketing/blog/</loc>
+    <lastmod>2026-11-20</lastmod>
+    <image:image>
+      <image:loc>https://www.gil.marketing/uploads/og/blog-og.png</image:loc>
+      <image:title>Notes on the work behind the work</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://www.gil.marketing/blog/2026-11-20-after-the-click/</loc>
+    <lastmod>2026-11-20</lastmod>
+    <image:image>
+      <image:loc>https://www.gil.marketing/uploads/og/after-the-click-og.png</image:loc>
+      <image:title>I wouldn't start with ads. I'd fix what happens after the click.</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.gil.marketing/uploads/og/after-the-click-diagram.svg</image:loc>
+      <image:title>The after-the-click sequence</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://www.gil.marketing/blog/2026-11-20-six-steps/</loc>
+    <lastmod>2026-11-20</lastmod>
+    <image:image>
+      <image:loc>https://www.gil.marketing/uploads/og/six-steps-og.png</image:loc>
+      <image:title>The six steps I still use — and the order I won't skip.</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.gil.marketing/uploads/og/six-steps-diagram.svg</image:loc>
+      <image:title>The six-step loop</image:title>
+    </image:image>
+  </url>
 </urlset>

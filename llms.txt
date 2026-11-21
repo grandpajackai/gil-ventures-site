@@ -1,0 +1,37 @@
+# Gil Ventures (Gil Marketing)
+
+> Gil Ventures helps DTC and Shopify brands grow with ad creative and ad management, plus email and landing pages.
+
+The public site is https://www.gil.marketing/. Founder: Brandon Gil (brandon@gil.marketing). Brands I've operated did $17M+ in revenue at a 5.5x blended ROAS.
+
+## Site
+
+- [Home](https://www.gil.marketing/): Gil Ventures — marketing, AI, and growth systems
+- [About](https://www.gil.marketing/about/): About Brandon Gil and Gil Ventures
+- [Solutions](https://www.gil.marketing/solutions/): Services overview
+- [Work](https://www.gil.marketing/work/): Selected work
+- [Contact](https://www.gil.marketing/contact/): Start a conversation
+- [Black Friday Launch Sprint](https://www.gil.marketing/bfcm/): Offer, email and SMS, sale page, and ad creative for BFCM
+- [Growth Marketing](https://www.gil.marketing/growth-marketing/)
+- [Creative & Brand Growth](https://www.gil.marketing/creative/)
+- [Shopify & Ecommerce](https://www.gil.marketing/shopify-ecommerce/)
+- [Email, SMS & Retention](https://www.gil.marketing/email-retention/)
+- [Data, Analytics & CRO](https://www.gil.marketing/analytics-cro/)
+- [Web Design & Development](https://www.gil.marketing/web-development/)
+- [AI & Automation](https://www.gil.marketing/ai-automation/)
+- [AI Lead Generation](https://www.gil.marketing/ai-lead-generation/)
+- [Opportunity Intelligence](https://www.gil.marketing/opportunity-intelligence/)
+- [CRM & Sales Automation](https://www.gil.marketing/crm-sales-automation/)
+
+## Blog
+
+Operator notes on the work behind the work: how I'd start a brand, what I'd fix first, and the order I still use.
+
+- [I wouldn't start with ads. I'd fix what happens after the click.](https://www.gil.marketing/blog/2026-11-20-after-the-click/): Ads buy attention. They don't fix a fuzzy offer, a mismatched page, or a missing follow-up. The four things to get straight before buying more traffic.
+- [The six steps I still use — and the order I won't skip.](https://www.gil.marketing/blog/2026-11-20-six-steps/): Listen, Research, Strategize, Execute, Evaluate, Growth. A process written down in 2018 and still used to run ads, email, and landing pages.
+
+## Optional
+
+- Book a 15-minute call: https://cal.com/brandongil/15min
+- Phone: +1-305-804-1097
+- Sitemap: https://www.gil.marketing/sitemap.xml
