@@ -509,7 +509,7 @@ img { border: 0; }
   .gv-featured-inner,
   .gv-post-card { grid-template-columns: 1fr; }
   .gv-featured .thumb,
-  .gv-post-card .thumb { min-height: 0; aspect-ratio: 16 / 9; }
+  .gv-post-card .thumb { min-height: 0; aspect-ratio: 5 / 4; }
   .gv-featured .body,
   .gv-post-card .body { padding: 28px 24px 30px; }
 }
@@ -642,6 +642,9 @@ img { border: 0; }
   color: var(--blue);
   padding-top: 2px;
 }
+.gv-toc-plain li { counter-increment: none; }
+.gv-toc-plain li::before { content: none; display: none; }
+
 .gv-toc a { font-weight: 600; text-decoration: none; }
 .gv-toc a:hover { text-decoration: underline; text-underline-offset: 3px; }
 
@@ -885,3 +888,94 @@ img { border: 0; }
 }
 
 .gv-faq details:last-child { border-bottom: 0; }
+
+
+/* Blog card art — in-theme graphic, not a weak label + underline */
+.gv-featured .thumb,
+.gv-post-card .thumb {
+  position: relative;
+  overflow: hidden;
+  background: #0c121f;
+}
+.gv-card-art {
+  position: absolute;
+  inset: 0;
+  padding: 26px 24px 22px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 16px;
+  background:
+    radial-gradient(circle at 82% 12%, oklch(50% 0.2 262 / 0.72), transparent 58%),
+    #0c121f;
+  color: #fff;
+}
+.gv-card-art .badge {
+  align-self: flex-start;
+  display: inline-block;
+  font-size: 11px;
+  font-weight: 800;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: #0c121f;
+  background: #7ee0ea;
+  padding: 6px 11px 5px;
+  border-radius: 999px;
+  line-height: 1.2;
+}
+.gv-card-art .word {
+  margin: 0;
+  font-size: clamp(22px, 2.2vw, 30px);
+  font-weight: 900;
+  letter-spacing: -0.03em;
+  line-height: 1.12;
+  color: #fff;
+  max-width: 16ch;
+}
+.gv-card-art .word em {
+  font-style: normal;
+  background: var(--grad-text);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+.gv-card-art .tiles {
+  display: grid;
+  gap: 8px;
+}
+.gv-card-art-four .tiles { grid-template-columns: 1fr 1fr; }
+.gv-card-art-six .tiles { grid-template-columns: 1fr 1fr 1fr; }
+.gv-card-art .tile {
+  background: rgb(21 28 43 / 0.9);
+  border: 1px solid #2a3348;
+  border-radius: 10px;
+  padding: 10px 10px 9px;
+  min-width: 0;
+}
+.gv-card-art .tile .n {
+  display: block;
+  font-size: 10px;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+  color: #7ee0ea;
+  margin-bottom: 2px;
+}
+.gv-card-art .tile strong {
+  display: block;
+  font-size: 13.5px;
+  font-weight: 800;
+  letter-spacing: -0.02em;
+  color: #fff;
+  line-height: 1.2;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.gv-featured .gv-card-art .word { font-size: clamp(26px, 2.6vw, 34px); }
+.gv-featured .gv-card-art .tile { padding: 12px 12px 11px; }
+.gv-featured .gv-card-art .tile strong { font-size: 15.5px; }
+
+@media (max-width: 800px) {
+  .gv-card-art { padding: 20px 18px 16px; }
+  .gv-card-art .word { font-size: 22px; max-width: none; }
+}
